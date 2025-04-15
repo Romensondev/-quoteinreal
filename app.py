@@ -83,4 +83,4 @@ def update_graph(moeda_nome, start_date, end_date):
     return fig, valor_texto
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False, host='0.0.0.0', port=8050)
